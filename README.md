@@ -1,16 +1,48 @@
-# chat_app
+# 💬 Flutter Chat App with Supabase
 
-A new Flutter project.
+A real-time **chat application** built using **Flutter**, **GetX**, and **Supabase**. This app allows users to register, login, view all users (excluding themselves), and chat in real time using Supabase's `realtime` and `auth` features.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 🔐 User Authentication (Register & Login)
+- 👥 View all registered users
+- 💬 One-on-one chat functionality
+- 🔄 Real-time messaging with auto-scroll
+- 📡 Supabase Realtime integration
+- 👁 Password visibility toggle
+- ✅ Reactive UI with GetX
+- ✨ Clean  UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📦 Tech Stack
+
+| Layer        | Tool / Library                     |
+|--------------|-------------------------------------|
+| Frontend     | Flutter                            |
+| State Mgmt   | GetX                               |
+| Backend      | Supabase (Auth, Database, Realtime)|
+| UI Toolkit   | Material Design                    |
+
+---
+
+## 🛠️ Setup Instructions
+
+### 1. 📥 Clone the Repository
+```bash
+git clone https://github.com/your-username/flutter-supabase-chat.git
+cd flutter-supabase-chat
+
+lib/
+├── controllers/         # All GetX controllers
+├── view/
+│   ├── screen/
+│   │   ├── login/
+│   │   ├── register/
+│   │   ├── home/
+│   │   └── chat/
+├── routes/              # App route definitions
+├── main.dart            # Entry point
+
